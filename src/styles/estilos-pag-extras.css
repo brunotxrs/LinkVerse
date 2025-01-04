@@ -9,6 +9,7 @@
 :root {
     --github-font: "Roboto Mono", serif;
     --linkedin-font: "Roboto Mono", serif;
+    --youtube-font: "Roboto Mono", serif;
     --X-font: "Inter", serif;
     --display: block;
     --font-size: 1.4rem;
@@ -111,7 +112,6 @@
 }
 
 /*  Estilo do X */
-
 #x {
     background-color: #000;
     font-family: var(--X-font);
@@ -139,6 +139,38 @@
 
     & .x:hover {
         background-color: #181818;
+    }
+
+}
+
+/*  Estilo do YouTube */
+#youtube {
+    background-color: #ffffff;
+    font-family: var(--youtube-font);
+    font-size: var(--font-size);
+    font-weight: 500;
+    line-height: var(--line-height);
+    text-align: var(--text-align);
+
+    & .tube {
+        width: var(--width);
+        border-bottom-right-radius: var(--border-bottom-right-radius);
+        border-bottom-left-radius: var(--border-bottom-right-radius);
+    }
+
+    & .youtube {
+        display: var(--display);
+        text-decoration: var(--text-decoration);
+        color: #ffffff;
+        padding: var(--padding);
+        text-transform: var(--text-transform);
+        margin: var(--margin);
+        background-color: #000;
+        border-radius: 1.6rem;
+    }
+
+    & .youtube:hover {
+        background-color: #272727;
     }
 
 }
