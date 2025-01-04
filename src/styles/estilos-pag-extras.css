@@ -1,10 +1,23 @@
 @charset "UTF-8";
 
-/*  Fonte do para a pagina do Github */
+/*  Fonte do para a pagina do Github e Linkedin */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
     --github-font: "Roboto Mono", serif;
+    --linkedin-font: "Roboto Mono", serif;
+    --display: block;
+    --font-size: 1.4rem;
+    --line-height: 2rem;
+    --width: 100vw;
+    --border-bottom-right-radius: 10px;
+    --border-bottom-left-radius: 10px;
+    --margin: .3rem;
+    --padding: .6rem 1.2rem;
+    --text-align: center;
+    --text-decoration: none;
+    --text-transform: capitalize;
+    --border: 2px solid;
 }
 
 * {
@@ -21,37 +34,77 @@
 /* Estilo da pagina github */
 #github {
     background-color: #212830;
-    font-size: .875rem, 14px;
-    line-height: 1.5;
+    font-size: var(--font-size);
+    font-weight: 500;
+    line-height: var(--line-height);
     font-family: var(--github-font);
 
     & .git {
-        width: 100vw;  
-        border-bottom-right-radius: 10px;
-        border-bottom-left-radius: 10px;
+        width: var(--width);  
+        border-bottom-right-radius: var(--border-bottom-right-radius);
+        border-bottom-left-radius: var(--border-bottom-left-radius);
     }
 
     & .github {
-        display: block;
+        display: var(--display);
         background-color: #2a313c;
-        margin: -2px 2px 2px 2px;
-        padding: 10px;
+        margin: var(--margin);
+        padding: var(--padding);
+        text-transform: var(--text-transform);
         border-radius: 6px;
-        text-align: center;
-        font-weight: bold;
-        text-decoration: none;
+        text-align: var(--text-align);
+        text-decoration:var(--text-transform);
         color: #d1d7e0;
+        border: var(--border) #3D444D;
+        
     }
     
     & .github:hover{
-        background-color: #3d444d;
+      
+        background-color: #3d444d90;
         color: #d1d7e0;
     
     }
-
 }
 
+/*  Estilo do Linkedin  */
+#linkedin {
+    background-color: #F4F2EE;
+    font-family: var(--linkedin-font);
+    font-size: var(--font-size);
+    font-weight: 600;
+    line-height: var(--line-height);
+    text-align: var(--text-align);
 
+    & .linkd {
+        width: var(--width);
+        border-bottom-right-radius: var(--border-bottom-right-radius);
+        border-bottom-left-radius: var(--border-bottom-right-radius);
+    }
+
+    & .linkedin {
+        display: var(--display);
+        text-decoration: var(--text-decoration);
+        color: #0A66C2;
+        padding: var(--padding);
+        text-transform: var(--text-transform);
+        border-radius: 1.6rem;
+        margin: var(--margin);
+        border: var(--border) transparent;
+        background: linear-gradient(#ffffff, #ffffff) padding-box, 
+        linear-gradient(to right, #0a66c2, #0056a1) border-box;
+        box-sizing: border-box;
+    }
+
+    & .linkedin:hover {
+        color: #004182;
+        outline: 1px solid #004182;
+        background: linear-gradient(#EBF4FD, #EBF4FD) padding-box, 
+        linear-gradient(to right, #004182, #004182) border-box;
+        transition: transform 0.4s border 0.4s;
+    }
+
+}
 
 
 
