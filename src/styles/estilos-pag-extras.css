@@ -1,11 +1,15 @@
 @charset "UTF-8";
 
-/*  Fonte do para a pagina do Github e Linkedin */
+/*  Fonte para a pagina do Github e Linkedin */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Fonte para a pagina X*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root {
     --github-font: "Roboto Mono", serif;
     --linkedin-font: "Roboto Mono", serif;
+    --X-font: "Inter", serif;
     --display: block;
     --font-size: 1.4rem;
     --line-height: 2rem;
@@ -102,6 +106,39 @@
         background: linear-gradient(#EBF4FD, #EBF4FD) padding-box, 
         linear-gradient(to right, #004182, #004182) border-box;
         transition: transform 0.4s border 0.4s;
+    }
+
+}
+
+/*  Estilo do X */
+
+#x {
+    background-color: #000;
+    font-family: var(--X-font);
+    font-size: var(--font-size);
+    font-weight: 600;
+    line-height: var(--line-height);
+    text-align: var(--text-align);
+
+    & .twitter {
+        width: var(--width);
+        border-bottom-right-radius: var(--border-bottom-right-radius);
+        border-bottom-left-radius: var(--border-bottom-right-radius);
+    }
+
+    & .x {
+        display: var(--display);
+        text-decoration: var(--text-decoration);
+        padding: var(--padding);
+        text-transform: var(--text-transform);
+        margin: var(--margin);
+        border: var(--border) #536471;
+        border-radius: 624.9375rem;
+        color: #E7E9EA;
+    }
+
+    & .x:hover {
+        background-color: #181818;
     }
 
 }
