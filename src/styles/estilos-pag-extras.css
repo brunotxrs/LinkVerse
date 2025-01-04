@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*  Fonte do para a pagina do Github */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+    --github-font: "Roboto Mono", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;   
+}
+
+/* Estilo do scroll */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
+/* Estilo da pagina github */
+#github {
+    background-color: #212830;
+    font-size: .875rem, 14px;
+    line-height: 1.5;
+    font-family: var(--github-font);
+
+    & .git {
+        width: 100vw;  
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    & .github {
+        display: block;
+        background-color: #2a313c;
+        margin: -2px 2px 2px 2px;
+        padding: 10px;
+        border-radius: 6px;
+        text-align: center;
+        font-weight: bold;
+        text-decoration: none;
+        color: #d1d7e0;
+    }
+    
+    & .github:hover{
+        background-color: #3d444d;
+        color: #d1d7e0;
+    
+    }
+
+}
+
+
+
+
+
+
+
