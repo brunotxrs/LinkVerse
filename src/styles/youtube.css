@@ -1,0 +1,27 @@
+.youtube, .youtube-color {
+    display: var(--display);
+    width: var(--width);
+    position: var(--absolute);
+    top: var(--top);
+    left: var(--left);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    border: 2px solid #000;
+    background-color: white;
+}
+
+.youtube, .container:hover .youtube-color {
+    opacity: var(--opacity-1);
+    pointer-events: var(--pointer-events-auto); 
+    box-shadow: var(--box-shadow);
+    box-sizing: var(-- box-sizing);
+}
+
+.youtube-color, .container:hover .youtube {
+    opacity: var(--opacity-0); 
+    pointer-events: var(--pointer-events-none); 
+    transform: var(--transform); 
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    border: 1px solid #ff0033;
+}
