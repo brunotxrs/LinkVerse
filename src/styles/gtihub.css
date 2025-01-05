@@ -1,0 +1,31 @@
+.github, .github-color {
+    display: var(--display);
+    width: var(--width);
+    position: var(--absolute);
+    top: var(--top);
+    left: var(--left);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    background-color: #151B23;
+}
+
+
+.github, .container:hover .github-color {
+    opacity: var(--opacity-1);
+    pointer-events: var(--pointer-events-auto); 
+    box-shadow: var(--box-shadow);
+    box-sizing: var(-- box-sizing);
+}
+
+.github-color, .container:hover .github  {
+    opacity: var(--opacity-0); 
+    pointer-events: var(--pointer-events-none);   
+    transform: var(--transform); 
+    box-shadow: var(--box-shadow);
+    transition: var(--transition);
+    outline: 1px solid #151B23;
+    background-color: #151B23;
+}
+
+
+
