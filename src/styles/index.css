@@ -1,98 +1,10 @@
 @charset "UTF-8";
-
-/* Reset */
-* {
-    margin: 0;
-    padding: 0;
-}
-
-/* The HTML and Body  */
-html, body {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-}
-
-body {
-    background: url('../img/fundo-fundo.jpg') no-repeat center center;  
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-/* The main */
-main {
-    position: relative;
-    height: 100vh;
-    
-}
-/* Sections */
-#phone {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 627px;
-    width: 311px;
-    background: url('../img/frame-iphone.png') no-repeat center center;  
-    
-}
-
-/* Iframes */
-#tela {
-    position: relative;
-    top: 80px;
-    left: 22px;
-    height: 470px;
-    width: 267px;
-}
-
-#redes-socias {
-    text-align: right;
-}
-
-.container {
-    position: relative;
-    width: 50px;
-    height: 50px;
-    display: inline-block;
-    margin: 50px 20px;
-}
-
-.github, .github-color {
-    position: absolute;
-    background-color: #151B23;
-    border: 1px  solid #151B23;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.github, .container:hover .github-color {
-    opacity: 1;
-    pointer-events: auto; 
-}
-
-.github-color, .container:hover .github  {
-    opacity: 0; 
-    pointer-events: none; 
-    outline: 2px solid #151B23;
-}
-
-
-#redes-socias img {
-    width: 50px;
-    /* margin: 10px; */
-    /* background-color: white; */
-    border-radius: 50%;
-    /* box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.416); */
-    /* box-sizing: border-box; */
-}
-
-#redes-socias img:hover{
-    /* border: 2px solid rgba(255, 255, 255, 0.607); */
-    transform: translate(-2px , -2px);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
-    /* transition: transform 0.4s border 0.4s; */
-}
-
+@import url(reset.css);
+@import url(global.css);
+@import url(main.css);
+@import url(redes.social.css);
+@import url(home.css);
+@import url(gtihub.css);
+@import url(linkedin.css);
+@import url(x.css);
+@import url(youtube.css);
