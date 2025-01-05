@@ -1,0 +1,25 @@
+main {
+    position: relative;
+    height: 100vh;
+}
+
+#phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 627px;
+    width: 311px;
+    background: url('../img/frame-iphone.png') no-repeat center center;  
+    
+}
+
+#tela {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 470px;
+    width: 267px;
+}
+
+
