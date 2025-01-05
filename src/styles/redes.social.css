@@ -1,0 +1,13 @@
+#redes-socias {
+    width: 100%;
+    text-align: right;
+}
+
+span {
+    display: var(--display);
+    margin-bottom: var(--margin-bottom);
+}
+
+.container {
+    position: var(--relative);
+}
