@@ -29,7 +29,7 @@
 @media (min-width: 320px) and (max-width: 1024px) {
     
     .youtube, .youtube-color {
-        top: 1.875rem;
+        top: 30px;
         left: var(--left);
         width: var(--width); 
 
