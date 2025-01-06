@@ -15,12 +15,13 @@
 
 
 ## 💻 **Acesse o Projeto online**
-👨🏻‍💻 [LinkVerse](https://brunotxrs.github.io/linkverse/)
+👨🏻‍💻 [LinkVerse](https://brunotxrs.github.io/LinkVerse/)
 
 ---
 
 ## 📋 **Índice**
-
+- [Demonstração Visual](demonstração-visual)
+- [Acesse o Projeto online](#acesse-o-projeto-online)
 - [Descrição do Projeto](#descrição-do-projeto)
 - [Recursos](#recursos)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
@@ -61,8 +62,6 @@ Cada página de rede social é estilizada com uma identidade visual única, resp
 
 ## 🚀 **Instalação e Execução**
 
-Explique como instalar e rodar o projeto.
-
 1. Clone o repositório:
    ```bash
    git clone https://github.com/brunotxrs/linkverse.git
@@ -82,11 +81,11 @@ Explique como instalar e rodar o projeto.
 │   ├── 📂 img                 # Imagens e ícones das redes sociais
 │   ├── 📂 home                # Página inicial
 │   ├── 📂 html                # Páginas de redes sociais (GitHub, LinkedIn, X, YouTube)
-│   ├── 📂 styles              # Arquivos CSS
-│   │   ├── index.css          # Estilo global
-│   │   ├── main.css           # Estilo principal
-│   │   ├── redes.social.css   # Estilo das redes sociais
-│   │   └── ...                # Outros estilos específicos
+│   └── 📂 styles              # Arquivos CSS
+│       ├── index.css          # Estilo global
+│       ├── main.css           # Estilo principal
+│       ├── redes.social.css   # Estilo das redes sociais
+│       └── ...                # Outros estilos específicos
 ├── index.html                 # Página principal
 ├── LICENSE                    # Licença MIT do projeto
 └── README.md                  # Documentação do projeto
