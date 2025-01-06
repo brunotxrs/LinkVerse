@@ -25,3 +25,12 @@
     transition: var(--transition);
     background-color: #000;
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    .twitter, .twitter-color {
+        top: 145px;
+        left: -70px;  
+    }
+    
+}

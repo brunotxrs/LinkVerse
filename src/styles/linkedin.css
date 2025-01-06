@@ -25,3 +25,12 @@
     transition: var(--transition);
     border: 2px solid #0a66c2;
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    .linkedin, .linkedin-color {
+        top: 150px;
+        left: -70px;  
+    }
+    
+}

@@ -25,3 +25,12 @@
     transition: var(--transition);
     border: 1px solid #ff0033;
 }
+
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    .youtube, .youtube-color {
+        top: 140px;
+        left: -70px;  
+    }
+    
+}

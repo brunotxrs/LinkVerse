@@ -22,4 +22,28 @@ main {
     width: 267px;
 }
 
+@media (min-width: 320px) and (max-width: 1024px) {
+    main {
+        width: 100%;
+        height: 100vh;
+    }
+
+    #phone {
+        width: 100%;
+        height: 400px;
+        background: url(../img/frame-iphone.png) no-repeat center center;
+        background-size: contain;        
+        display: inline-block;
+        margin: 0px auto 0px auto;
+        text-align: center;
+        
+    }
+
+    #tela {
+        margin: -28px 0 0 -42px;
+        height: 300px;
+        width: 170px;
+    }
+
+}
 

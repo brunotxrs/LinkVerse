@@ -7,6 +7,7 @@
     padding: var(--padding);
     border-radius: var(--border-radius);
     background-color: white;
+    outline: 2px solid #151B23;
 }
 
 .home, .container:hover .home-color {
@@ -19,9 +20,17 @@
 .home-color, .container:hover .home {
     opacity: var(--opacity-0); 
     pointer-events: var(--pointer-events-none); 
-    outline: 2px solid #151B23;  
+    outline: 2px solid orange;  
     transform: var(--transform); 
     box-shadow: var(--box-shadow);
     transition: var(--transition);
 }
 
+@media (min-width: 320px) and (max-width: 1024px) {
+    
+    .home , .home-color {
+        top: 170px;
+        left: -70px;  
+    }
+    
+}
