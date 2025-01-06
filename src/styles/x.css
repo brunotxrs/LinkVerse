@@ -29,8 +29,9 @@
 @media (min-width: 320px) and (max-width: 1024px) {
     
     .twitter, .twitter-color {
-        top: 145px;
-        left: -70px;  
+        top: 2.1875rem;
+        left: var(--left);
+        width: var(--width);
     }
     
 }

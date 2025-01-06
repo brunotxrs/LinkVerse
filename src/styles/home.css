@@ -29,8 +29,9 @@
 @media (min-width: 320px) and (max-width: 1024px) {
     
     .home , .home-color {
-        top: 170px;
-        left: -70px;  
+        width: var(--width);
+        top: 3.75rem;
+        left: var(--left);  
     }
     
 }

@@ -32,8 +32,9 @@
 @media (min-width: 320px) and (max-width: 1024px) {
     
     .github, .github-color {
-        top: 160px;
-        left: -70px;  
+        top: 3.125rem;
+        left: var(--left);
+        width: var(--width);  
     }
     
 }

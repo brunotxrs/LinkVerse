@@ -12,20 +12,26 @@ body {
 :root {
     --display: block;
     --border-radius: 50%;
-    --margin-bottom: 70px;
-    --width: 50px;
+    --margin-bottom: 4.375rem;
+    --width: 3.125rem;
     --relative: relative;
     --absolute: absolute;
-    --top: 30px;
-    --left: -100px;
-    --padding: 5px;
+    --top: 1.875rem;
+    --left: -6.25rem;
+    --padding: 0.3125rem;
     --opacity-0: 0;
     --opacity-1: 1;
     --pointer-events-auto: auto;
     --pointer-events-none: none;
     --transform: translate(-2px , -2px);
-    --box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.616);
+    --box-shadow: 0.3125rem 0.3125rem 0.625rem rgba(0, 0, 0, 0.616);
     --transition: transform 0.4s border 0.4s;
     --box-sizing: border-box;
 }
 
+@media (min-width: 320px) and (max-width: 1024px) {
+    :root {
+        --width: 2.1875rem;
+        --left: -3.4375rem;
+    }
+}
